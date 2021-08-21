@@ -1,0 +1,475 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\chalinLink\\EACAggregatorProxy.sol": {
+      "lastModificationDate": 1629406591847,
+      "contentHash": "c9f1e73e82e63c650046c09c0716d5bd",
+      "sourceName": "contracts/chalinLink/EACAggregatorProxy.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.6"
+      ],
+      "artifacts": [
+        "AccessControllerInterface",
+        "AggregatorInterface",
+        "AggregatorProxy",
+        "AggregatorV2V3Interface",
+        "AggregatorV3Interface",
+        "EACAggregatorProxy",
+        "Owned"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\AccessControlledOffchainAggregator.sol": {
+      "lastModificationDate": 1629406595996,
+      "contentHash": "dcfa1c9c93ea155bc6398bdbd2d13b72",
+      "sourceName": "contracts/aggregator/AccessControlledOffchainAggregator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OffchainAggregator.sol",
+        "./SimpleReadAccessController.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "AccessControlledOffchainAggregator"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\OffchainAggregator.sol": {
+      "lastModificationDate": 1629406641025,
+      "contentHash": "ed8905c88ffacd033a13a40b347539c3",
+      "sourceName": "contracts/aggregator/OffchainAggregator.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccessControllerInterface.sol",
+        "./AggregatorV2V3Interface.sol",
+        "./AggregatorValidatorInterface.sol",
+        "./LinkTokenInterface.sol",
+        "./Owned.sol",
+        "./OffchainAggregatorBilling.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "OffchainAggregator"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\SimpleReadAccessController.sol": {
+      "lastModificationDate": 1629406787959,
+      "contentHash": "1fe4b9b1cc9e876634137a373829209c",
+      "sourceName": "contracts/aggregator/SimpleReadAccessController.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SimpleWriteAccessController.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "SimpleReadAccessController"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\AccessControllerInterface.sol": {
+      "lastModificationDate": 1629406658104,
+      "contentHash": "73a7219d6aae11496504a447351eb1d1",
+      "sourceName": "contracts/aggregator/AccessControllerInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AccessControllerInterface"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1629406672673,
+      "contentHash": "a20db651078242c7880ac825b674a42f",
+      "sourceName": "contracts/aggregator/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorInterface.sol",
+        "./AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorV2V3Interface"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\AggregatorValidatorInterface.sol": {
+      "lastModificationDate": 1629406735614,
+      "contentHash": "54adfe7942d86838e3caabc6f2cc043b",
+      "sourceName": "contracts/aggregator/AggregatorValidatorInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorValidatorInterface"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\LinkTokenInterface.sol": {
+      "lastModificationDate": 1629406747255,
+      "contentHash": "c906c60839ee450edc809478148a1487",
+      "sourceName": "contracts/aggregator/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.1"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\Owned.sol": {
+      "lastModificationDate": 1629406759708,
+      "contentHash": "402261822c7fc5dc8b4ea59059e15607",
+      "sourceName": "contracts/aggregator/Owned.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Owned"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\OffchainAggregatorBilling.sol": {
+      "lastModificationDate": 1629406775719,
+      "contentHash": "6e325daaa7afa428ce4d1f4a70b5acb7",
+      "sourceName": "contracts/aggregator/OffchainAggregatorBilling.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AccessControllerInterface.sol",
+        "./LinkTokenInterface.sol",
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "OffchainAggregatorBilling"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\AggregatorInterface.sol": {
+      "lastModificationDate": 1629406703811,
+      "contentHash": "a321221b387f6d74c1b4e8a7687d0256",
+      "sourceName": "contracts/aggregator/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\AggregatorV3Interface.sol": {
+      "lastModificationDate": 1629406721377,
+      "contentHash": "ed2e62b66f0e9c04ee968fc42e227213",
+      "sourceName": "contracts/aggregator/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "C:\\Perso\\PolarFox\\chainLink\\contracts\\aggregator\\SimpleWriteAccessController.sol": {
+      "lastModificationDate": 1629406804588,
+      "contentHash": "ce97b3ecfbbeeb86237bf18b98e97bad",
+      "sourceName": "contracts/aggregator/SimpleWriteAccessController.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./AccessControllerInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "SimpleWriteAccessController"
+      ]
+    }
+  }
+}
