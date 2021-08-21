@@ -6,3 +6,4 @@ flatten/
 node_modules/
 scripts/
 yarn-error.log
+.mnemonic
