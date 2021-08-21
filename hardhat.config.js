@@ -67,29 +67,13 @@ module.exports = {
         }
       }
     ],
-    overrides: {
-      "contracts/Airdrop.sol": {
-        version: "0.8.0",
-        settings: {}
-      }
-    }
   },
   networks: {
-    fuji: {
-      url: 'https://api.avax-test.network/ext/bc/C/rpc',
-      // gasPrice: 225000000000,
-      chainId: 43113,
-      accounts: {
-        mnemonic
-      },
-    },
   },
   namedAccounts: {
     deployer: {
-      fuji: '0x3b69b2ADCbF43DbaBdF6A14634045b5035Db188C',
     },
     devTeam: {
-      fuji: '0x7198c0F3b129e4220E5bFfc5579Aab07016a02CE',
     }
   }
 };
